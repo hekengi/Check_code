@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+<ImageView android:id="@+id/imageView"
+           android:layout_width="wrap_content"
+           android:layout_height="402dp"
+           android:layout_gravity="center"
+           app:srcCompat="@drawable/photo_0"/>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="0dp">
+    <TextView android:id="@+id/attend"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_weight="1"
+              android:text="출석일"
+              android:textSize="30dp"/>
+    <TextView android:id="@+id/tv_count"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:text="0"
+              android:textSize="50sp"
+              tools:layout_editor_absoluteX="196dp"
+              tools:layout_editor_absoluteY="232dp"/>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:orientation="horizontal"
+              android:paddingTop="0dp">
+    <Button android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="출석체크 하기"
+            android:textSize="20dp"/>
+</LinearLayout>
+</LinearLayout>
