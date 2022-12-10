@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView
+            android:text="신새로 바로가기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/sincero"
+            android:gravity="center"
+            android:layout_margin="30dp"/>
+    <Button
+            android:id="@+id/btn_url1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sincero"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+    <TextView
+            android:text="그린블리스 바로가기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/green_bliss"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_margin="30dp"/>
+    <Button
+            android:id="@+id/btn_url2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Bliss"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+    <TextView
+            android:text="자연상점 바로가기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/onlyeco"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_margin="30dp"/>
+    <Button
+            android:id="@+id/btn_url3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OnlyEco"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+    <TextView
+            android:text="아로마티카 바로가기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aromatica"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_margin="30dp"/>
+    <Button
+            android:id="@+id/btn_url4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aromatca"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+</LinearLayout>
